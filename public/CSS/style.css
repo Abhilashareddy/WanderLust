@@ -1,0 +1,139 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex:1;
+}
+.navbar{
+    height:5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fa424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color:#222222 !important;
+    cursor: pointer;
+}
+.navbar-nav{
+    background-color: white;
+}
+
+/* Cards */
+img {
+    border: 3px solid #d0d0d3;
+    border-style: groove;
+  }
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem !important;
+    max-width: 25rem;
+}
+ 
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    margin-right: 10px !important;
+}
+
+.card-body{
+    padding: 0 !important;
+    margin-left: 10px;
+}
+
+.card-text {
+    font-weight: 500 !important;
+    color: #222222;
+    font-size: 17px;
+    /* font-family: "Lato", sans-serif; */
+  }
+
+.card-text p{
+    font-weight: 400 !important;
+   
+}
+.listing-links{
+    text-decoration: none;
+    color:#222222 !important;
+}
+ .card-img-overlay{
+    opacity:0 !important;
+    
+}
+ .card-img-overlay:hover {
+    opacity:0.2 !important;
+    background-color: white !important ;
+    
+}  
+/* New Page */
+.add-btn{
+    background-color:#fe424d !important ;
+    border: none !important;
+}
+
+/* Edit Page */
+.edit-btn{
+    background-color:#fe424d !important ;
+    border: none !important;
+}
+/* show page */
+.show-img {
+  height: 60vh;
+  width: 680px !important;
+  
+}
+
+.btns{
+    display: flex !important;
+}
+.show-card{
+    padding-left:0;
+    padding-right: 0;
+}
+
+/* footer */
+.f-info-links{
+    text-decoration: none;
+    color:#222222 ;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.f-info-socials i {
+    font-size:1.2rem ;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.f-info {
+    text-align: center;
+    height:8rem;
+    background-color: #ebebeb;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* map */
+#map{
+    height: 30rem;
+    width:42rem;
+    border-radius: 10px;
+}
